@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #e0d7f5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  max-width: 300px;
+  pointer-events: none;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  font-size: calc(14px + 2vmin);
+  margin-bottom: 3rem;
+  color: #f9d5ff;
+  text-shadow: 1px 1px 5px #5a1a75;
+}
+
+/* Título con Montserrat SemiBold, más ordenado y limpio */
+.pinguino-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: calc(32px + 2vmin);
+  color: #ff4fa1;
+  text-shadow: 0 0 8px #ff4fa1;
+  margin-bottom: 1rem;
+}
+
+/* Botón negro elegante para el enlace */
+.App-button {
+  background-color: #000;
+  color: #ff4fa1;
+  font-weight: 700;
+  border: 2px solid #ff4fa1;
+  border-radius: 30px;
+  padding: 0.75rem 2.5rem;
+  font-size: calc(14px + 1vmin);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 0 8px #ff4fa1;
+  user-select: none;
+}
+
+.App-button:hover,
+.App-button:focus {
+  background-color: #ff4fa1;
+  color: #000;
+  box-shadow: 0 0 20px #ff4fa1;
+  outline: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
